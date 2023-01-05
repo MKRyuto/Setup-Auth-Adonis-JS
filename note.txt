@@ -1,0 +1,14 @@
+Running
+- adonis serve --dev
+
+Migration
+- adonis migration:run
+
+Make:Controller
+- adonis make:controller Auth/Register --type=http
+
+Make:view
+- adonis make:view auth/register
+
+Make:Middleware
+- adonis make:middleware Authenticate --type=http
